@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{79b7b437-6848-4409-a8fa-cc08178da660}</em:id>
+    <em:name>Backup Tabs</em:name>
+    <em:description>Export your tabs to a file of text!</em:description>
+    <em:version>1.0</em:version>
+    <em:creator>PRF_Indio</em:creator>
+    <em:type>2</em:type>
+
+    <!-- Mozilla Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>19.0</em:minVersion>
+        <em:maxVersion>25.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <em:localized>
+	  <Description>
+		<em:locale>pt-BR</em:locale>
+		<em:name>Backup Abas</em:name>
+		<em:description>Exporte suas abas para um arquivo de texto!</em:description>
+      </Description>
+    </em:localized>
+  </Description>
+</RDF>
