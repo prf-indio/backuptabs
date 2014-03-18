@@ -27,7 +27,9 @@ BackupTabs.BrowserOverlay = { //funcao pai
         }
         let promise2 = OS.File.writeAtomic("BackupTabs.txt", lista,
           {tmpPath: "file.txt.tmp"});
-        window.alert('Abas salvas com sucesso em "BackupTabs.txt"');
+        let string = document.getElementById("backuptabs-string-bundle");
+        let mensagem = string.getString("backuptabs.greeting.label");
+        window.alert(mensagem);
       }
     );
   }
